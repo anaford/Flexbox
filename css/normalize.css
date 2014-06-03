@@ -1,0 +1,86 @@
+/* ----------- normalize styles ----------- */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    background: #fff; /* 1 */
+    color: #000; /* 2 */
+    font-size: 100%; /* 3 */
+    -webkit-font-smoothing: antialiased; /* 4 */
+    -webkit-text-size-adjust: 100%; /* 5 */
+    -ms-text-size-adjust: 100%; /* 5 */
+}
+
+body {
+    font-family: 'Lato', 'sans-serif';
+    font-size: 1em;
+    line-height: 1.6;
+    margin: 0 auto;
+    padding: 0; 
+}
+
+a {
+    color: #34495e;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-weight: 300;
+    line-height: 1.3;
+    margin: 0; 
+}
+
+h2, h3 {
+    margin: 0 0 .5em; 
+}
+
+h1 {
+    font-size: 3.2em;
+}
+
+h1 + p {
+    color: #b7dddd; /*5e6c79*/
+    font-size: 1.6em;
+    font-weight: 300;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2.2em;
+}
+
+h3 {
+    font-size: 2.2em;
+}
+
+p {
+    margin: 0 0 1em;
+}
+
+ul {
+    margin: 1em 0;
+    padding: 0 0 0 1.5em;
+    margin: .5em 0; 
+}

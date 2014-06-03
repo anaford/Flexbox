@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de">
+<head>
+	<title>Flexbox Layout Demo</title>
+	<meta charset="utf-8">
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/normalize.css">
+	<style type="text/css">
+
+        /* ----------- base styles ----------- */
+        .main, .sidebar {
+            padding: 3% 5%;  
+        }
+
+        .main {
+            background: #1b222e;
+            color: #fff;
+        }
+
+        .primary {
+            background: #efefe7; 
+        }
+
+        .secondary {
+            background: #b8dede; 
+        }
+
+        /* ----------- flexbox ----------- */
+        .flex-container {
+            display: -webkit-flex;
+            display: flex;
+            -webkit-direction: row-reverse;
+            flex-direction: row-reverse;
+        }
+
+	</style>
+</head>
+
+<body>
+	<div class="flex-container">
+		<div class="main">
+			<h2>Main Content</h2>
+			<p>Integer ultricies sem id elit tincidunt sed rutrum lorem mollis. Proin tincidunt, quam a suscipit posuere, sem lorem hendrerit risus, eu gravida urna turpis vitae ligula. Integer est nunc, luctus eget interdum et, interdum quis lorem. </p>	
+			<p>Integer ultricies sem id elit tincidunt sed rutrum lorem mollis. Proin tincidunt, quam a suscipit posuere, sem lorem hendrerit risus, eu gravida urna turpis vitae ligula. Integer est nunc, luctus eget interdum et, interdum quis lorem. </p>
+            <p>Integer ultricies sem id elit tincidunt sed rutrum lorem mollis. Proin tincidunt, quam a suscipit posuere, sem lorem hendrerit risus, eu gravida urna turpis vitae ligula. Integer est nunc, luctus eget interdum et, interdum quis lorem. </p>  
+            <p>Integer ultricies sem id elit tincidunt sed rutrum lorem mollis. Proin tincidunt, quam a suscipit posuere, sem lorem hendrerit risus, eu gravida urna turpis vitae ligula. Integer est nunc, luctus eget interdum et, interdum quis lorem. </p>  
+		</div>
+		<aside class="sidebar primary">
+			<h3>Primary Sidebar</h3>
+ 
+		</aside>
+		<aside class="sidebar secondary">
+			<h3>Secondary Sidebar</h3>
+ 
+		</aside>
+	</div>
+</body>
+</html>

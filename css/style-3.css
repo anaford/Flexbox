@@ -1,0 +1,72 @@
+/* ----------- flexbox ----------- */
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap; 
+}
+
+#header {
+    -webkit-order: 1;
+    order: 1; 
+}
+
+.content {
+    -webkit-order: 2;
+    order: 2; 
+    padding: 2% 5%;
+}
+
+.primary {
+    -webkit-order: 3;
+    order: 3; 
+}
+
+.secondary {
+    -webkit-order: 4;
+    order: 4; 
+}
+
+#footer {
+    -webkit-order: 5;
+    order: 5; 
+}
+
+/* ----------- media queries --------------------- */
+@media screen and (min-width: 48em) {
+
+    .content {
+        width: 67%;
+        -webkit-order: 3; 
+    }
+
+    .primary {
+        width: 33%;
+        padding: 1em 4.833%;
+        -webkit-order: 2; 
+    } 
+
+}
+@media screen and (min-width: 60em) {
+
+    .content {
+        width: 50%;
+        -webkit-order: 2;
+        order: 2; 
+    }
+
+    .primary {
+        -webkit-order: 4;
+        order: 4; 
+    }
+
+    .secondary {
+        -webkit-order: 3;
+        order: 3; 
+    }
+
+    .sidebar {
+      width: 25%; 
+    } 
+
+}

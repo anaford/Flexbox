@@ -1,0 +1,171 @@
+/* ----------- flexbox ----------- */
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap; 
+}
+
+#header {
+    -webkit-order: 1;
+    order: 1; 
+}
+
+.content {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    -webkit-order: 2;
+    order: 2; 
+}
+
+.box1 {
+    -webkit-flex-grow: 8;
+    flex-grow: 8; 
+}
+
+.box2 {
+    -webkit-flex-grow: 1;
+    flex-grow: 1; 
+}
+
+.box3 {
+    -webkit-flex-grow: 3;
+    flex-grow: 3; 
+}
+
+.primary {
+    -webkit-order: 3;
+    order: 3; 
+}
+
+.secondary {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    -webkit-order: 4;
+    order: 4;
+}
+
+#footer {
+    -webkit-order: 5;
+    order: 5; 
+}
+
+/* ----------- media queries --------------------- */
+@media screen and (min-width: 48em) {
+
+    .content {
+        width: 67%;
+        -webkit-order: 3;
+        order: 3; 
+    }
+
+    .primary {
+        width: 33%;
+        padding: 1em 4.833%;
+        -webkit-order: 2;
+        order: 2; 
+    }
+
+    .secondary {
+        padding: 1em 4.833%;
+    }
+
+    .box1 {
+        -webkit-flex-grow: 6;
+        flex-grow: 6;
+        -webkit-order: 1;
+        order: 1; 
+    }
+
+    .box2 {
+        -webkit-order: 3;
+        order: 3; 
+    }
+
+    .box3 {
+        -webkit-flex-grow: 1;
+        flex-grow: 1;
+        -webkit-order: 2;
+        order: 2; 
+    } 
+
+    .box4 {
+        -webkit-order: 3;
+        order: 3; 
+    }
+
+    .box5 {
+        -webkit-order: 2;
+        order: 2; 
+    }
+
+    .box6 {
+        -webkit-order: 1;
+        order: 1; 
+    } 
+
+}
+
+@media screen and (min-width: 60em) {
+
+    .content {
+        width: 50%;
+        -webkit-order: 2;
+        order: 2;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap; 
+    }
+
+    .content .box {
+        padding: 2% 10%;
+    }
+
+    .primary {
+        -webkit-order: 4;
+        order: 4; 
+    }
+
+    .secondary {
+        -webkit-order: 3;
+        order: 3; 
+    }
+
+    .sidebar {
+        width: 25%; 
+    } 
+
+    .box1 {
+        -webkit-order: 1;
+        order: 1; 
+    }
+
+    .box2 {
+        -webkit-order: 2;
+        order: 2; 
+    }
+
+    .box3 {
+        -webkit-order: 3;
+        order: 3; 
+    }
+
+    .box4 {
+        -webkit-order: 1;
+        order: 1; 
+    }
+
+    .box5 {
+        -webkit-order: 2;
+        order: 2; 
+    }
+
+    .box6 {
+        -webkit-order: 3;
+        order: 3; 
+    } 
+  
+}

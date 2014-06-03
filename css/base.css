@@ -1,0 +1,52 @@
+/* ----------- base styles ----------- */
+
+.flex-container {
+    width: 100%;
+    margin: 0 auto; 
+}
+
+#header, #footer, .content, .sidebar {
+    padding: 3% 5%;  
+}
+
+#header {
+    width: 100%;
+    background: #0e212e; /*1b222e*/
+    color: #fff;
+}
+
+#content {
+    width: 100%;
+    background: #eee;
+}
+
+.content {
+    width: 100%;
+    background: #fff;
+}
+
+.primary {
+    width: 100%;
+    background: #efefe7; /*5f6d7a*/
+    /*color: #fff;*/
+}
+
+.secondary {
+    width: 100%;
+    background: #b8dede; /*bbc4c9*/
+}
+
+#footer {
+    width: 100%;
+    background: #0e212e; /*78b3da*/
+    color: #fff;
+}
+
+/* ----------- base styles part 2----------- */
+.flex-content {
+    padding: 0; 
+}
+
+.box {
+    padding: 2% 5%;  
+}
